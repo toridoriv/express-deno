@@ -1,0 +1,10 @@
+{
+  "name": "express-deno",
+  "description": "An Express port for Deno.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Tori Rodriguez",
+    "email": "vrodriguezfe@icloud.com",
+    "url": "https://github.com/toridoriv"
+  }
+}
