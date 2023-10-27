@@ -1,7 +1,7 @@
 {
   "name": "express-deno",
   "description": "An Express port for Deno.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Tori Rodriguez",
     "email": "vrodriguezfe@icloud.com",
