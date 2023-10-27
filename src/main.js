@@ -7,14 +7,15 @@ import $nodeFs from "node:fs";
 import $nodeNet from "node:net";
 import $nodeEvents from "node:events";
 import $nodeStream from "node:stream";
-import $zlib from "npm:pako";
+import $zlib from "node:zlib";
 import $nodeBuffer from "node:buffer";
 import $stringDecoder from "node:string_decoder";
-import $querystring from "npm:querystring";
+import $querystring from "node:querystring";
 import $nodeUrl from "node:url";
 import $nodeHttp from "node:http";
 import $nodeCrypto from "node:crypto";
 import process from "node:process";
+import { setImmediate } from "node:timers";
 
 var commonjsGlobal =
   typeof globalThis !== "undefined"
