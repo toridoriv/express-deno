@@ -15,9 +15,9 @@ import type * as serveStatic from "npm:@types/serve-static";
 /**
  * Creates an Express application. The express() function is a top-level function exported by the express module.
  */
-export declare function e(): core.Express;
+declare function e(): core.Express;
 
-export declare namespace e {
+declare namespace e {
   /**
    * This is a built-in middleware function in Express. It parses incoming requests with JSON payloads and is based on body-parser.
    * @since 4.16.0
@@ -123,3 +123,5 @@ export declare namespace e {
   interface Router extends core.Router {}
   interface Send extends core.Send {}
 }
+
+export default e;
