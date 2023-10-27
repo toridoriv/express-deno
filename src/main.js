@@ -16,6 +16,7 @@ import $nodeHttp from "node:http";
 import $nodeCrypto from "node:crypto";
 import process from "node:process";
 import { setImmediate } from "node:timers";
+import { Buffer } from "node:buffer";
 
 var commonjsGlobal =
   typeof globalThis !== "undefined"
